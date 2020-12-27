@@ -1,13 +1,11 @@
 # Site Build Settings
 
-title: Your awesome title
-email: your-email@example.com
+title: Che's Blog
+email: cheissmart@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I will add description later
 baseurl: "/che-blog" # the subpath of your site, e.g. /blog
 url: "https://cheissmart.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-github_username:  cheissmart
 author:  'Che Liu'
 
 # Build settings
