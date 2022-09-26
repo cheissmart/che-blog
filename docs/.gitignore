@@ -4,5 +4,5 @@ Gemfile.lock
 .sass-cache
 .jekyll-metadata
 .DS_Store
-topics.txt
+draft
 

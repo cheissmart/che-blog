@@ -3,8 +3,8 @@
 title: Che's Blog
 email: cheissmart@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I will add description later
-baseurl: "che-blog" # the subpath of your site, e.g. /blog
+  Sharing topics I found interesting
+# baseurl: "che-blog" # the subpath of your site, e.g. /blog
 url: "https://cheissmart.github.io/che-blog" # the base hostname & protocol for your site, e.g. http://example.com
 author:  'Che Liu'
 

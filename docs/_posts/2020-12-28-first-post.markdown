@@ -2,7 +2,7 @@
 layout: post
 title:  "First post"
 date:  2020-12-28 00:05:07 +0800
-categories:
+categories: general
 image: mountains.jpg
 ---
 
