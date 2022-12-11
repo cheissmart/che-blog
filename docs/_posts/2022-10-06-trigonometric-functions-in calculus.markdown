@@ -289,7 +289,7 @@ I am too lazy to add the integral of hyperbolic functions now. Maybe I will do i
 <div class='yellow-warning'>
 <b>Case study</b>:  $\int sin^m(x) cos^n(x) dx, n,m \geq 0$ <br/>
 If n or m is <b>odd</b>, we can solve it easily with a u-sub.<br/><br/>
-Now, suppose both n and m are <b>even</b>. Then, we can use the following relations to transform the integral into an integral of powers of $cos(2x)$. <br/>
+Now, suppose both n and m are <b>even</b>. Then, we can use the following relations to transform the integral into an integral involving powers of $cos(2x)$. <br/>
 $sin^2(x) = \frac{1 - cos(2x)}{2}$ <br/>
 $cos^2(x) = \frac{1 + cos(2x)}{2}$
 </div>
@@ -302,7 +302,7 @@ $cos^2(x) = \frac{1 + cos(2x)}{2}$
 	<a href="https://www.youtube.com/watch?v=bCB_nIdN86s" target="_blank">地球上最浪漫的一首歌</a> 
 	</p>
 
-	I like it's soothing melody.
+	I like its soothing melody.
 
 	<div style="height: 100%; position: relative; font-size: 10px;"> <span style="position: absolute; bottom: 0; right: 0; color: #888888"> <a style="color: #888888" href="https://www.freepik.com/free-vector/stamped-postcard-frame-with-travel-theme_13311480.htm#query=travel%20postcard&position=2&from_view=keyword">Image by rawpixel.com</a> on Freepik </span> </div>
 </div>
