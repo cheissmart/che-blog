@@ -545,7 +545,7 @@ th, td {
 .postcard{
   padding: 25px;
   border-radius: 3px;
-  background-image: url("/assets/img/postcard.jpg");
+  background-image: url("./postcard.jpg");
   background-size: cover;
   height: 350px;
   display: flex;
