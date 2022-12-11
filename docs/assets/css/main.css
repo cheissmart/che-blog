@@ -505,3 +505,49 @@ th, td {
 .fa-rss-square:hover {
 	color: #ff6600;
 }
+
+/*
+  Everything below is not default
+*/
+.details-blue>summary{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  text-decoration: underline;
+  color: #aaaaaa;
+}
+.details-blue>p{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ddeeff;
+}
+
+.yellow-warning {
+  background-color: #ffffdd;
+  border:2px solid #eeee99;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.red-warning {
+  background-color: #ffdddd;
+  color: #dd8888;
+  border:2px solid #ee9999;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.postcard{
+  padding: 25px;
+  border-radius: 3px;
+  background-image: url("/assets/img/postcard.jpg");
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  flex-flow: column;
+}
