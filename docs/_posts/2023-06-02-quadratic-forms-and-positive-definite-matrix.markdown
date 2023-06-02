@@ -69,7 +69,7 @@ $$
 $$
 </center>	
 
-In other words, we only have to check if all eigenvalue of the **associated symmetric matrix** $B$ are positive.\\
+In other words, we only have to check if all eigenvalues of the **associated symmetric matrix** $B$ are positive.\\
 In this case $$B = \begin{bmatrix} 3 & 2 & 0 \\ 2 & 2 & 2 \\ 0 & 2 & 1 \end{bmatrix}$$ and its eigenvalues are $5, 2, -1$. Thus, we can conclude that the statement "$Q(x_1, x_2, x_3) > 0$ for all $$\textbf{x} = \begin{bmatrix} x_1 \\ x_2 \\ x_3 \end{bmatrix} \neq 0$$" is false. In fact, we can construct a $\textbf{x}$ such that $Q(\textbf{x}) < 0$ if we calculate the $U$ matrix(eigenvactors of $B$), but I will leave it as an exercise for the reader.
 
 ### Some definitions
@@ -77,22 +77,22 @@ It turns out that the question discussed above is related to the notion of "defi
 <div class='yellow-warning'>
 Let $A$ be a <b>symmetric </b> $n$ by $n$ square matrix. $A$ is <br/>
 <ul>
-  <li><b>Positive definite</b> if $\textbf{x}^{\intercal}A\textbf{x} > 0$ for all $\textbf{x}\neq0$</li>
-  <li><b>Negative definite</b> if $\textbf{x}^{\intercal}A\textbf{x} < 0$ for all $\textbf{x}\neq0$</li>
-  <li><b>Indefinite</b> if $\textbf{x}^{\intercal}A\textbf{x}$ takes both positive and negative values</li>
-  <li><b>Positive semidefinite</b> if $\textbf{x}^{\intercal}A\textbf{x} \geq 0$ for all $\textbf{x}\neq0$</li>
-  <li><b>Negative semidefinite</b> if $\textbf{x}^{\intercal}A\textbf{x} \leq 0$ for all $\textbf{x}\neq0$</li>
+  <li><b>Positive definite</b> iff $\textbf{x}^{\intercal}A\textbf{x} > 0$ for all $\textbf{x}\neq0$</li>
+  <li><b>Negative definite</b> iff $\textbf{x}^{\intercal}A\textbf{x} < 0$ for all $\textbf{x}\neq0$</li>
+  <li><b>Indefinite</b> iff $\textbf{x}^{\intercal}A\textbf{x}$ takes both positive and negative values</li>
+  <li><b>Positive semidefinite</b> iff $\textbf{x}^{\intercal}A\textbf{x} \geq 0$ for all $\textbf{x}\neq0$</li>
+  <li><b>Negative semidefinite</b> iff $\textbf{x}^{\intercal}A\textbf{x} \leq 0$ for all $\textbf{x}\neq0$</li>
 </ul>
 </div>
 With arguments similar to the above, we can see that:
 <div class='yellow-warning'>
 Let $A$ be a <b>symmetric </b> $n$ by $n$ square matrix. $A$ is <br/>
 <ul>
-  <li><b>Positive definite</b> if all eigenvalues are positive</li>
-  <li><b>Negative definite</b> if all eigenvalues are negative</li>
-  <li><b>Indefinite</b> if $A$ has both positive and negative engenvalues</li>
-  <li><b>Positive semidefinite</b> if all eigenvalues are non-negative</li>
-  <li><b>Negative semidefinite</b> if all eigenvalues are non-positive</li>
+  <li><b>Positive definite</b> iff all eigenvalues are positive</li>
+  <li><b>Negative definite</b> iff all eigenvalues are negative</li>
+  <li><b>Indefinite</b> iff $A$ has both positive and negative engenvalues</li>
+  <li><b>Positive semidefinite</b> iff all eigenvalues are non-negative</li>
+  <li><b>Negative semidefinite</b> iff all eigenvalues are non-positive</li>
 </ul>
 </div>
 The notion of positive definite is useful when optimizing multivariate functions because it is related to the curvature of a function. More specifically, it is used in the **second partial derivative test**.
